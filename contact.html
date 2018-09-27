@@ -4,7 +4,7 @@
 <title>Basic Portolio Main Page</title>
 <header>
     <!--Link to CSS Page-->
-    <link rel="stylesheet" href="/Users/nanceski/Desktop/Basic-Portfolio/assets/css/style.css">
+    <link rel="contact stylesheet" href="/Users/nanceski/Desktop/Basic-Portfolio/assets/css/contact.css">
     <!--Link connected to Contact Page-->
     <link rel="contactpage" href="/Users/nanceski/Desktop/Basic-Portfolio/contact.html">
     <!--Link connected to Portfolio Page-->
@@ -19,7 +19,7 @@
 
             <ul id="horizontal-list">
 
-                <li><a href="/Users/nanceski/Desktop/Basic-Portfolio/contact.html">About |</a></li>
+                <li><a href="/Users/nanceski/Desktop/Basic-Portfolio/index.html">About |</a></li>
                 <li><a href="/Users/nanceski/Desktop/Basic-Portfolio/portfolio.html">Portfolio |</a></li>
                 <li><a href="/Users/nanceski/Desktop/Basic-Portfolio/contact.html">Contact</a></li>
                 </u>
@@ -28,28 +28,26 @@
     </nav>
     <hr>
     <br>
-    <br>
-    <br>
 
     <div class="wrapper">
 
-        <section id="about"><b>About Me</b></section>
+        <section id="about"><b>Contact</b></section>
         <div></div>
         <hr>
-        <p class="container"> <img src="assets/images/sf irene.jpg" alt="Irene Bogues" width="200" height="200" align="left"
-                hspace="15">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi blanditiis nostrum ex
-            tempore corrupti totam voluptatem similique. Officia quia corrupti error tenetur tempora? Consequuntur ex
-            mollitia doloremque iusto illum voluptatum.Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Eligendi blanditiis nostrum ex tempore corrupti totam voluptatem similique. Officia quia corrupti error
-            tenetu tempora Consequuntur e mollitia doloremque iusto illum voluptatum.Lorem, ipsum dolor sit amet
-            consectetur
-            adipisicing elit.Eligendi blanditiis nostrum ex tempore corrupti totam voluptatem similique. Officia quia
-            corrupti error
-            tenetur tempora? Consequuntur ex mollitia doloremque iusto illum voluptatum.
+        <div class="container">
+            <form action="action_page.php" background="white">
 
-        </p>
+                <label for="name">Name</label>
+                <input type="text" id="fname" name="name" placeholder="John Smith">
 
+                <label for="email">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="example@gmail.com">
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" style="height:100px"></textarea>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
 
 
         </section>
