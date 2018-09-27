@@ -1,0 +1,155 @@
+/* Style for Body */
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    padding-bottom: 0px;
+    background-image: url('/Users/nanceski/Desktop/Basic-Portfolio/assets/images/leaves-pattern.png');
+
+}
+
+/* Styling for Navigator Menu*/
+
+.menu {
+
+    background-color: #ffff;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin-top: -3%;
+    float: center;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: -.66%;
+
+}
+
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 100%;
+    width: 150px;
+    font-size: 20px;
+    color: #ffff;
+    letter-spacing: .5px;
+    background-color: #4aaaa5;
+    padding: 30px;
+    float: left;
+    margin-left: 12%;
+    margin-right: 42%;
+    margin-bottom: 0%;
+
+}
+
+
+
+ul#horizontal-list {
+    min-width: 20px;
+    list-style: none;
+    padding-top: 40px;
+    float: left;
+    overflow: auto;
+    margin-right: 10%;
+
+}
+
+ul#horizontal-list li {
+    clear: both;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    float: center;
+    margin-right: 0%;
+    overflow: auto;
+}
+
+
+/* unvisited link */
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkgrey;
+}
+
+/* mouse over link */
+a:hover {
+    color: teal;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+/** Styling for Main Content **/
+
+.wrapper {
+    clear: both;
+    background-color: #ffff;
+    padding: 10px;
+    width: 960px;
+    min-height: 100%;
+    margin-bottom: 30%;
+    margin: auto;
+    overflow: auto;
+}
+
+
+
+
+hr {
+    border-color: #dddd;
+}
+
+#about {
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 23px;
+    letter-spacing: .5px;
+    text-align: left;
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
+
+/* Styling for paragraph */
+.container {
+    clear: both;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    text-align: left;
+    line-height: 30px;
+    width: 960px;
+
+}
+
+/** Styling for footer **/
+
+.container2 {
+    width: 100% font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    background-color: #666666;
+    color: #ffff;
+    line-height: 50%;
+    bottom: 0;
+    padding: 50px;
+    margin-top: 10%;
+    padding-bottom: -7%;
+}
+
+p.separator2 {
+    height: 20;
+    width: 100%;
+    border: -5;
+    border-top: 3px solid #4aaaa5;
+    border-bottom: 3px solid#4aaaa5;
+    margin-bottom: -10%;
+}
