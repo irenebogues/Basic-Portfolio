@@ -128,15 +128,9 @@ hr {
     float: left;
     width: 20%;
     display: flex;
-    background: #4aaaa5;
-    background-position: left bottom;
-    color: #ffff;
     text-align: center;
-
     margin: relative;
-    position: relative;
-
-
+    padding: 10 10 10px;
 }
 
 /* Clear floats after image containers */
@@ -145,32 +139,78 @@ hr {
     float: left;
     width: 20%;
     display: flex;
-    background: #4aaaa5;
-    color: #ffff;
-    text-align: center;
     margin: relative;
-    position: relative;
-    overflow: hidden;
 
 
 }
-
-
 
 /* Styling for image lables */
 
 
-.desc::after {
-    clear: both;
-    float: left;
-    width: 10%;
+.box-set {
+    background: #fffff;
+    width: 400px;
+    height: 100px;
+    position: relative;
+}
+
+.box {
     background: #4aaaa5;
-    padding: 14px;
-    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 12px;
     color: #ffff;
+    height: 30px;
+    width: 140px;
+    position: absolute;
 
 }
+
+.box-1 {
+
+    top: -150px;
+    left: -5px;
+    z-index: 5px;
+
+}
+
+.box-2 {
+
+    top: -150px;
+    right: 25px;
+
+    z-index: 4px;
+}
+
+.box-3 {
+
+    top: -100px;
+    left: 9px;
+    z-index: 3px;
+
+}
+
+.box-4 {
+
+
+    top: -40px;
+    right: 29px;
+    z-index: 2px;
+
+}
+
+.box-5 {
+
+    top: 0px;
+    left: -4px;
+    z-index: 1px;
+
+}
+
+
+
+
+
 
 /** Styling for footer **/
 
