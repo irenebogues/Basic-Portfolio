@@ -131,6 +131,7 @@ hr {
     text-align: center;
     margin: relative;
     padding: 10 10 10px;
+    border: 5 5 5px;
 }
 
 /* Clear floats after image containers */
@@ -158,10 +159,11 @@ hr {
     background: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     color: #ffff;
-    height: 30px;
+    height: 25px;
     width: 140px;
+    margin-left: 4px;
     position: absolute;
 
 }
@@ -184,8 +186,8 @@ hr {
 
 .box-3 {
 
-    top: -100px;
-    left: 9px;
+    top: -50px;
+    left: -5px;
     z-index: 3px;
 
 }
@@ -201,8 +203,8 @@ hr {
 
 .box-5 {
 
-    top: 0px;
-    left: -4px;
+    top: 50px;
+    left: -5px;
     z-index: 1px;
 
 }
