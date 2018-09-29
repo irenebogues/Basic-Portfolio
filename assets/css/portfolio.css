@@ -9,7 +9,7 @@ body {
 
 }
 
-/* Styling for Navigator Menu*/
+/* Style for Navigator Menu*/
 
 .menu {
 
@@ -87,13 +87,14 @@ a:active {
 
 /** Styling for Main Content **/
 
+
 .wrapper {
     clear: both;
     background-color: #ffff;
     padding: 10px;
     width: 960px;
     min-height: 100%;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     margin: auto;
     overflow: hidden;
 }
@@ -103,7 +104,7 @@ a:active {
 
 hr {
     border-color: #dddd;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #about {
@@ -170,7 +171,7 @@ hr {
 
 .box-1 {
 
-    top: -150px;
+    top: -170px;
     left: -5px;
     z-index: 5px;
 
@@ -178,8 +179,8 @@ hr {
 
 .box-2 {
 
-    top: -150px;
-    right: 25px;
+    top: -170px;
+    right: 27px;
 
     z-index: 4px;
 }
@@ -195,7 +196,7 @@ hr {
 .box-4 {
 
 
-    top: -40px;
+    top: -55px;
     right: 29px;
     z-index: 2px;
 
@@ -203,8 +204,8 @@ hr {
 
 .box-5 {
 
-    top: 50px;
-    left: -5px;
+    top: 60px;
+    left: -4.5px;
     z-index: 1px;
 
 }
