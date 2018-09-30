@@ -4,7 +4,7 @@ body {
     height: 100%;
     max-width: 100%;
     padding-bottom: 0px;
-    background-image: url('/Users/nanceski/Desktop/Basic-Portfolio/assets/images/leaves-pattern.png');
+    background-image: url('assets/images/leaves-pattern.png');
     overflow: hidden;
 }
 
